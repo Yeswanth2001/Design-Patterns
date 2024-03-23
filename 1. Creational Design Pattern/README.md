@@ -26,3 +26,7 @@
 #### When to use Factory Design Pattern?
 -  Centralize and encapsulate object creation logic.
 -  Loose coupling and easy maintenance.
+
+### What is Builder Design Pattern?
+- The Builder Design Pattern is a creational pattern which divides the construction of creating complex object and allowing to construct in different way, which makes easier to configure object.
+- It is used when we have too many arguments to pass in Constructor & it's hard to maintain the order.
