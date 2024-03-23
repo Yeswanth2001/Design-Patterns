@@ -1,31 +1,28 @@
-### What is Design Patterns?
-- Design patterns provide general solution for solving the specific task/problem in software design.
-- They represent best practices and provide templates for solving particular issues in efficient manner.
-- Using design pattern, you can make your code more flexible, reusable and maintable.
+### What is Singleton Design Pattern?
+- Singleton design pattern which comes under creational design pattern that ensure class has only one instance throughtout the application and that instance is globally accessed.
+- Singleton pattern can also handle more load and high performance.
 
-### Why we need Design Pattern?
-- Provide proven solutions to common problems.
-- Make code reusable, saving time and effort.
-- Help create software that is easier to understand and maintain.
-- Foster collaboration and communication among developers.
-- Improve the quality and scalability of software systems.
+#### When to use Singleton Design Pattern?
+- Class should only one instance.
+- Logging
+- Caching & configurations etc..
 
-### Types of Design Patterns:
-1. Creational Design Pattern
-2. Structural Design Pattern
-3. Behavioural Design Pattern
+#### Advantage:
+- Reduce memory
+- Single instance
+- Globally Accessed
+- Lazy Initialization
 
-#### What is Creational Design Pattern?
-- Creational desing pattern deals with object creation and initialization.
-- It create object based on use case and try to make it more flexible and efficient.
-- Using this desing pattern, reduce the complexity of object creation and provide best possbile way to reuse it.
-- Eg : Singleton, Factory, Builder, Prototype etc...
+### What is Factory Design Pattern?
+- The Factory Design Pattern which comes under creational design pattern used to create objects based on the client provided information.
 
-#### What is Structural Design Pattern?
-- It focus on the blueprint for organizing classes and object to form larger structure and make complex structure more flexible and reusable.
-- Eg : Adapter, Bridge, Decorator, Facade & Proxy etc...
+#### Factory Design Pattern can be implemented in 3 ways:
+- Simple Factory - Simple Factory Design Pattern acts like a manager that knows how to create different types of objects based on the client provided information. This way, the client code doesn't have to worry about how the objects are created.
+  
+- Factory Method - Factory method define an interface for creating object and let the subclass decide which class to instantiate. Object creation logic are encapsulated.
+  
+- Abstract Factory - It is extension of Factory Method pattern that provides an interface for creating families of related or dependent object without specifying their concrete class.
 
-#### What is Behavioural Design Pattern?
-- Behavioural Design Pattern deals with the communication between object and classes.
-- They focus on how objects and classes collaborate and communicate to accomplish task and responsiblities.
-- Eg : Strategy, Observer etc ...
+#### When to use Factory Design Pattern?
+-  Centralize and encapsulate object creation logic.
+-  Loose coupling and easy maintenance.
