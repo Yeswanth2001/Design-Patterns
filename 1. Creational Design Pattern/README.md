@@ -1,4 +1,4 @@
-### What is Singleton Design Pattern?
+### 1. What is Singleton Design Pattern?
 - Singleton design pattern which comes under creational design pattern that ensure class has only one instance throughtout the application and that instance is globally accessed.
 - Singleton pattern can also handle more load and high performance.
 
@@ -13,7 +13,7 @@
 - Globally Accessed
 - Lazy Initialization
 
-### What is Factory Design Pattern?
+### 2. What is Factory Design Pattern?
 - The Factory Design Pattern which comes under creational design pattern used to create objects based on the client provided information.
 
 #### Factory Design Pattern can be implemented in 3 ways:
@@ -27,6 +27,6 @@
 -  Centralize and encapsulate object creation logic.
 -  Loose coupling and easy maintenance.
 
-### What is Builder Design Pattern?
+### 3. What is Builder Design Pattern?
 - The Builder Design Pattern is a creational pattern which divides the construction of creating complex object and allowing to construct in different way, which makes easier to configure object.
 - It is used when we have too many arguments to pass in Constructor & it's hard to maintain the order.
