@@ -30,3 +30,4 @@
 ### 3. What is Builder Design Pattern?
 - The Builder Design Pattern is a creational pattern which divides the construction of creating complex object and allowing to construct in different way, which makes easier to configure object.
 - It is used when we have too many arguments to pass in Constructor & it's hard to maintain the order.
+- The Builder pattern is used when you need to create an object with many optional parameters, and you want to avoid having a constructor with a long parameter list or multiple constructors with different parameter combinations. 
